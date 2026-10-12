@@ -90,3 +90,84 @@ border-radius: 10px;
     height: 200px;
     display: center;
 }
+
+.box-orange {
+     background: orange;
+  height: 100px;
+  width: 100px;
+}
+
+.box-blue{
+    background: lightskyblue;
+  height: 100px;
+  width: 100px; 
+  position: static;
+}
+
+.box-purple {
+     background: purple;
+  height: 100px;
+  width: 100px;
+  position: relative;
+  top: 100px;
+  height: 100px;
+  left: 100px;
+}
+.box-green{
+    background: rgb(2, 242, 62);
+  height: 100px;
+  width: 100px; 
+  position:static;
+}
+.box-red {
+     background: red;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 5px;
+}
+.box-yellow{
+    background: yellow;
+  height: 100px;
+  width: 100px; 
+  position:static;
+}
+.container {
+  position: relative;
+  background-color: #8b89898b;
+  width: 500px;
+  height: 180px;
+}
+.box-pink {
+  position: fixed;
+  background-color: pink;
+  width: 100px;
+  height: 100px;
+  right: 5px;
+}
+.box-brown{
+  position: static;
+  background-color: brown;
+  width: 100px;
+  height: 100px;
+}
+.box-black {
+  position: fixed;
+  background-color: black;
+  width: 100px;
+  height: 100px;
+  right: 5px;
+}
+.box-white{
+  position: static;
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+.sticky {
+  position: sticky;
+  background: red;
+  top: 0;
+  padding: 10px;
+  color: white;
+}
