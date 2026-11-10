@@ -1,0 +1,94 @@
+
+/* ESTILOS GENERALES */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #211339;
+    color: white;
+    font-family: Arial, sans-serif;
+    padding: 40px;
+}
+
+/* TITULO */
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+
+/* ETIQUETAS */
+
+label {
+    display: block;
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+/* INPUT Y SELECT */
+
+input, select {
+    width: 100%;
+    max-width: 500px;
+    padding: 15px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #211339;
+}
+
+/* BOTON */
+
+button {
+    margin-top: 20px;
+    padding: 16px 35px;
+    background-color: #0861d9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #39d9ae;
+    color: #211339;
+}
+
+/* RESULTADO */
+
+#resultado {
+    margin-top: 20px;
+    max-width: 700px;
+    padding: 25px;
+    background-color: #fff0a0;
+    color: #211339;
+    font-size: 22px;
+    font-weight: bold;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* ADAPTACION A CELULARES */
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    input, select {
+        width: 100%;
+    }
+}
